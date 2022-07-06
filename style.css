@@ -82,14 +82,19 @@ body{
 
 
 .donate-plan-area{
+    margin-top: 5%;
     display: flex;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.donate-plan p{
+    color: black;
 }
 .donate-plan{
+    text-align: left;
     margin: 20px 20px;
     padding: 70px 30px;
-    background-color: blanchedalmond;
+    
     border-radius: 15px;
 }
 .donate-plan h2{
@@ -97,4 +102,15 @@ body{
 }
 .donate-plan p{
     font-size: 20px;
+    
+}
+#food-family{
+    background-color: silver;
+}
+#shelter{
+    background-color: salmon;
+    
+}
+#education{
+    background-color: blanchedalmond;
 }
