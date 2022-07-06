@@ -114,3 +114,46 @@ body{
 #education{
     background-color: blanchedalmond;
 }
+.mail-form{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.mail-form h1{
+    font-size: 60px;
+}
+.mail-updates-form{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding: 90px;
+    background-color: antiquewhite;
+}
+.mail-updates-form input{
+    position: relative;
+    display: inline-block;
+    background-color: rgb(172, 171, 171);
+   
+    
+}
+.mail-updates-form input[type="email"]{
+    position: relative;
+    height: 65px;
+    width: 375px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.mail-updates-form input[type="submit"]{
+    position: relative;
+    left: -10px;
+    height: 67px;
+    width: 200px;
+    border-radius: 0 15px 15px 0;
+    outline: none;
+    border: none;
+    background-color: tomato;
+    font-size: 20px;
+    color: aliceblue;
+}
