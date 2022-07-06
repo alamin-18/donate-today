@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0 0;
     font-family: 'Inter', sans-serif;
 }
 .header-area{
@@ -59,19 +59,23 @@ body{
     margin-top: 5%;
 }
 .form input{
-    width: 50%;
-    height: 100%;
-    color: grey;
-    padding-top: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    color: gray;
-}
-.form label{
-    text-align: center;
+    height: 65px;
+    width: 375px;
+    /* border-radius: 15px 0 0 15px; */
+    outline: none;
+    border: none;
     font-size: 20px;
+    outline: none;
 }
+.form input[type="number"]{
+    border-bottom: 1px solid grey;
+    width: 900px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
 .donate{
     margin-top: 7%;
     text-align: center;
@@ -156,4 +160,19 @@ body{
     background-color: tomato;
     font-size: 20px;
     color: aliceblue;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    height: 200px;
+    text-align: center;
+
+}
+.footer h2{
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-style: italic;
+    color: tomato;
+    font-family: 'Yellowtail', cursive;
 }
