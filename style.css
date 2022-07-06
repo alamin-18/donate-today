@@ -4,9 +4,11 @@ body{
 }
 .header-area{
     height: 1000PX;
-    background-image: url(images/donation4.jpg);
+    background-color: black;
+    background-image: url(images/donation5-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .container{
     padding: 250px 250px;
@@ -88,17 +90,16 @@ body{
 .donate-plan-area{
     margin-top: 5%;
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
+    justify-content: center;
 }
 .donate-plan p{
     color: black;
 }
 .donate-plan{
+    width: 400px;
     text-align: left;
     margin: 20px 20px;
     padding: 70px 30px;
-    
     border-radius: 15px;
 }
 .donate-plan h2{
@@ -109,15 +110,51 @@ body{
     
 }
 #food-family{
-    background-color: silver;
+    background-color: #edf5f7;
 }
 #shelter{
-    background-color: salmon;
+    background-color: #ffeeee;
     
 }
 #education{
-    background-color: blanchedalmond;
+    background-color: #fff4d6;
 }
+.latest-news{
+    text-align: center;
+    font-size: 50px;
+}
+.latest-news-card{
+    justify-content: center;
+    display: flex;
+}
+.card {
+    width: 400px;
+    background-color: #edf5f7 ;
+    margin: 3%;
+    
+}
+.card img{
+    width: 100%;
+}
+.card small{
+    margin-top: 20px;
+    display: block;
+    
+
+}
+.card button{
+    padding: 5px 5px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+}
+.card-des{
+    padding: 10px;
+   
+}
+/* .card p{
+    padding: 10px;
+} */
 .mail-form{
     text-align: center;
     margin-bottom: 5%;
